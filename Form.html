@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="Estilosform.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="estilosform2.css">
+        <link rel="stylesheet" href="font.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head> 
+    <body> 
+        <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="Perú.png" width="100" height="50" alt="">
+                <a href="index.html">Perú Maravilloso</a>
+            </div>
+
+            <nav>
+                <a href="Costa.html">Costa</a>
+                <a href="Sierra.html">Sierra</a>
+                <a href="Selva.html">Selva</a>
+                <a href="Form.html">Contáctenos</a>
+            </nav>
+        </header>
+        <section id="formulario"> 
+            <form name="frmregistro" method="post" action="mailto:mateoarrival@gmail.com"> 
+                <h1>FORMULARIO DE REGISTRO</h1> 
+                <label id="label">Complete el formulario con sus datos</label> 
+                <p id="linea">&nbsp;</p> 
+                <label id="label">Nombres y apellidos 
+                    <input name="txtnombres" type="text"  
+                           id="caja" size="60"  
+                           placeholder="ingrese datos completos" required/> 
+                </label> 
+                <label id="label">Dni  
+                    <input type="text" id="caja" name="txtdni"  
+                           size="60" placeholder="8 caracteres" required=> 
+                </label> 
+                <label id="label">Telefono  
+                    <input type="tel" id="caja" size="60" name="txtfono"/> 
+                </label> 
+                <label id="label">Estudios realizados </label> 
+                <label id="label"> 
+                    <input type="checkbox" name="chkprimaria"  
+                           checked="checked"/> Primaria 
+                </label> 
+                <label id="label"> 
+                    <input type="checkbox" name="chksecundaria" /> Secundaria  
+                </label> 
+                <label id="label"> 
+                    <input type="checkbox" name="chktecnico" /> Técnico  
+                </label> 
+                <label id="label"> 
+                    <input type="checkbox" name="chkuniversitario" /> Universitario 
+                </label> 
+                <br/> 
+                <label id="label">Estado civil</label> 
+                <label id="label">  
+                    <input type="radio" name="btnestado" value="s"  
+                           checked="checked"/> Soltero 
+                </label> 
+                <label id="label">  
+                    <input type="radio" name="btnestado" value="c" /> Casado 
+                </label> 
+                <label id="label">  
+                    <input type="radio" name="btnestado" value="v" /> Viudo 
+                </label> 
+                <label id="label">  
+                    <input type="radio" name="btnestado" value="d" /> Divorciado 
+                </label> 
+                <br/> 
+                <label id="label">Provincia</label> 
+                <input type="text" name="txtprovincia" list="provincias"/> 
+                <datalist class="provincias" id="provincias"> 
+                    <option value="Lima" /> 
+                    <option value="Arequipa" /> 
+                    <option value="Tacna" /> 
+                    <option value="Trujillo" /> 
+                    <option value="Huancayo" /> 
+                </datalist> 
+                <label id="label">Correo electronico  
+                    <input type="email" id="caja" size="60" name="txtemail"/> 
+                </label>         
+                <label id="label">Color de preferencia  
+                    <input type="color" name="txtcolor"/> 
+                </label> 
+                <input type="submit" value="registrar"> 
+                <input type="reset" value="limpiar"> 
+            </form> 
+        </section>
+        <footer>
+            <section class="links">
+                <a href="Costa.html">Costa</a>
+                <a href="Sierra.html">Sierra</a>
+                <a href="Selva.html">Selva</a>
+                <a href="Form.html">Contáctenos</a>
+            </section>
+        <section>
+         <div class="redes">
+         <ul class="sociales">
+         <li><a href="http://www.facebook.com/"><img src="facebook.png" width="45" height="45"></a></li>
+         <li><a href="http://www.twitter.com/"><img src="twitter.png" width="45" height="45"></a></li>
+         <li><a href="http://www.youtube.com/"><img src="youtube.png" width="45" height="45"></a></li>
+         <li><a href="http://www.instagram.com/"><img src="instagram.png" width="45" height="45"></a></li>
+         </div>
+        </section>
+        <section>
+            <a style="font-family: arial black; font-size: 14px; color: white;" href="index.html">Regresar al Inicio</a>
+            </section>
+        </footer>
+ 
+    </body> 
+</html> 

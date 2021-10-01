@@ -1,0 +1,14 @@
+
+
+
+.redes{
+	height: 40px;
+	padding: 0px;
+}
+
+.sociales li{ 
+	display: inline-block;
+}
+.sociales a{
+	padding: 5px;
+}

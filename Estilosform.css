@@ -1,0 +1,102 @@
+ /*Estilo para el fondo de la página web*/ 
+body{ 
+    font-family:"comics sans"; 
+    font-size:16px; 
+} 
+
+/*Estilo para el formulario*/ 
+#formulario{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border:solid 2px #b7ddf2; 
+    background: rgb(238, 181, 74); 
+    margin: auto; 
+    width:500px; 
+    padding: 10px; 
+    border-radius: 15px;
+
+} 
+/*Estilo para el titulo*/ 
+h1{ 
+    font-size:16px; 
+    font-weight:bold; 
+    margin-bottom:2px; 
+
+} 
+/*Estilo para el texto y su línea*/ 
+
+#linea{ 
+    color:#666666; 
+    margin-bottom:5px; 
+    border-bottom:solid 1px #FFF; 
+    padding-bottom:5px; 
+
+} 
+/*Estilo para los textos del formulario*/ 
+#label{ 
+
+    display: block; 
+    font-weight: bold; 
+    width: 240px; 
+    font-size: 12px; 
+   
+
+} 
+/*Estilo para la cajas de texto simple*/ 
+#caja{ 
+    padding:4px; 
+    border:solid 1px #aacfe4; 
+    margin:2px 0 5px 0; 
+    border-radius: 6px;
+
+} 
+/*Estilo para el boton Registrar*/ 
+#boton{ 
+    clear:both; 
+    margin-left:150px; 
+    width:125px; 
+    height:31px; 
+    background:#666666; 
+    text-align:center; 
+    line-height:31px; 
+    color:#FFFFFF; 
+    font-size:11px; 
+    font-weight:bold; 
+
+} 
+
+.provincias{
+    border-radius: 6px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 320px;
+        margin: auto;
+    }
+    #caja{
+        width: 300px;
+    }
+}
+	
+	
+
+@media screen and (max-width: 600px) {
+    #formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 320px;
+        margin: auto;
+    }
+    #caja{
+        width: 300px;
+    }
+}
